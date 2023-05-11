@@ -71,117 +71,6 @@
         "url": "https://github.com/NixOS/nixpkgs/archive/refs/tags/22.11.zip",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
- "omnia": {
-        "branch": "master",
-        "description": null,
-        "homepage": "",
-        "owner": "gsu-protocol",
-        "repo": "https://github.com/gsu-protocol/omnia.git",
-        "rev": "b0c51fb54499710e37cdbfda5d9a121ce4154984",
-        "sha256": "b0c51fb54499710e37cdbfda5d9a121ce4154984",
-        "type": "git",
-        "url": "https://github.com/gsu-protocol/omnia.git",
-        "url_template": "<repo>"
-    },     
-"oracle-suite": {
-        "branch": "master",
-        "description": null,
-        "homepage": "",
-        "owner": "block360",
-        "repo": "https://github.com/block360/oracle-suite-1.git",
-        "rev": "0c9787193ade2ad5a42434a4960b97ee3679e6e1",
-        "sha256": "2f8b15783d664bf7f52d0c17029a2c6fe3a62ad3",
-        "type": "git",
-        "url": "https://github.com/block360/oracle-suite-1.git",
-        "url_template": "<repo>"
-    },
-    "setzer": {
-        "branch": "master",
-        "description": null,
-        "homepage": "",
-        "owner": "usmanert",
-        "repo": "https://github.com/usmanert/setzer.git",
-        "rev": "fa447e18fffe6316315efc2f570cdd83baeff0bb",
-        "sha256": "",
-        "type": "git",
-        "url": "https://github.com/usmanert/setzer.git",
-        "url_template": "<repo>"
-    }
-}
-admin@Protocol-Dev-1-Nuremberg:~/update/omnia-relay$ cat ~/block360-oracle/omnia-feed/nix/sources.json 
-{
-    "dapptools": {
-        "branch": "master",
-        "description": "Dapp, Seth, Hevm, and more",
-        "homepage": "https://dapp.tools",
-        "owner": "dapphub",
-        "repo": "dapptools",
-        "rev": "c9562ac38ec908ecbe5fba4c0bf8e69ad8f644d3",
-        "sha256": "0m93v2cqmd9nypsiaik2sj173bj76mx8c55kk56kn7hqakw7zm30",
-        "type": "tarball",
-        "url": "https://github.com/dapphub/dapptools/archive/c9562ac38ec908ecbe5fba4c0bf8e69ad8f644d3.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "mach-nix": {
-        "branch": "master",
-        "description": "Create highly reproducible python environments",
-        "homepage": "",
-        "owner": "DavHau",
-        "repo": "mach-nix",
-        "rev": "c914064c9b8cab9495818ffe8d834d8c2c1d7ce7",
-        "sha256": "1l6x03r4vk1rsgjn87pp9izxr8nki4snmkhyr12cfl532mrm6kx1",
-        "type": "tarball",
-        "url": "https://github.com/DavHau/mach-nix/archive/c914064c9b8cab9495818ffe8d834d8c2c1d7ce7.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "makerpkgs": {
-        "branch": "master",
-        "description": "Common nixpkgs",
-        "homepage": "",
-        "owner": "makerdao",
-        "repo": "makerpkgs",
-        "rev": "5a8ee08d811d5b5098533b33177bba58a4e06abc",
-        "sha256": "0k7nq0ikpwxvllshl05hn9r15m29lh50gy5sb9ixc14zlhv2l7nv",
-        "type": "tarball",
-        "url": "https://github.com/makerdao/makerpkgs/archive/5a8ee08d811d5b5098533b33177bba58a4e06abc.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "niv": {
-        "branch": "master",
-        "description": "Easy dependency management for Nix projects",
-        "homepage": "https://github.com/nmattia/niv",
-        "owner": "nmattia",
-        "repo": "niv",
-        "rev": "df49d53b71ad5b6b5847b32e5254924d60703c46",
-        "sha256": "1j5p8mi1wi3pdcq0lfb881p97i232si07nb605dl92cjwnira88c",
-        "type": "tarball",
-        "url": "https://github.com/nmattia/niv/archive/df49d53b71ad5b6b5847b32e5254924d60703c46.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
-    "nixpkgs": {
-        "branch": "nixpkgs-unstable",
-        "description": "Nix Packages collection",
-        "homepage": "",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "ee084c02040e864eeeb4cf4f8538d92f7c675671",
-        "sha256": "1x8amcixdaw3ryyia32pb706vzhvn5whq9n8jin0qcha5qnm1fnh",
-        "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/ee084c02040e864eeeb4cf4f8538d92f7c675671.tar.gz",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
- "nixpkgs2": {
-        "branch": "nixpkgs-unstable",
-        "description": "Nix Packages collection",
-        "homepage": "",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "4d2b37a84fad1091b9de401eb450aae66f1a741e",
-        "sha256": "04dd4g24061p8sw922zjickahqwn3wa9l3j5qllfzp5n6dy9is16",
-        "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/refs/tags/22.11.zip",
-        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
-    },
 "omnia": {
         "branch": "master",
         "description": null,
@@ -198,12 +87,12 @@ admin@Protocol-Dev-1-Nuremberg:~/update/omnia-relay$ cat ~/block360-oracle/omnia
         "branch": "master",
         "description": null,
         "homepage": "",
-        "owner": "block360",
-        "repo": "https://github.com/block360/oracle-suite-1.git",
-        "rev": "0c9787193ade2ad5a42434a4960b97ee3679e6e1",
+        "owner": "gsu-protocol",
+        "repo": "https://github.com/gsu-protocol/oracle-suite.git",
+        "rev": "dd5c87025a11c0611372cedbeb4fe2d5bb0a245c",
         "sha256": "2f8b15783d664bf7f52d0c17029a2c6fe3a62ad3",
         "type": "git",
-        "url": "https://github.com/block360/oracle-suite-1.git",
+        "url": "https://github.com/gsu-protocol/oracle-suite.git",
         "url_template": "<repo>"
     },
     "setzer": {
