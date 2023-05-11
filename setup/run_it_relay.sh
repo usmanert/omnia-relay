@@ -12,8 +12,8 @@ export GOFER_PATH=$(pwd)/result-3/bin/gofer
 shift
   ;;
 --omnia) 
-sudo cp $2 $(pwd)/result/share/relay-ethereum-relay.json
-sudo cp $2 $(pwd)/result/share/relay-ethereum-relay-temp.json 
+sudo cp $2 $(pwd)/result/share/relay--relay.json
+sudo cp $2 $(pwd)/result/share/relay--relay-temp.json 
 export OMNIA_CONFIG=$2
 export OMNIA_VERBOSE=true
 # The result-2 directory is created by nix and it is a symbolic link of nix's installed package, which contain omnia
@@ -39,6 +39,5 @@ done
 export SETZER_MIN_MEDIAN=1
 $(pwd)/result/bin/install-relay relay
 sudo cp -v  $(pwd)/result/share/spire-temp.json $SPIRE_CONFIG
-sudo cp -v  $(pwd)/result/share/relay-ethereum-relay-temp.json $OMNIA_CONFIG
+sudo cp -v  $(pwd)/result/share/relay--relay-temp.json $OMNIA_CONFIG
 sudo cp -v  $(pwd)/result/share/gofer_temp.json $GOFER_CONFIG
-
